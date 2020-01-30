@@ -1,0 +1,39 @@
+/*
+==========================================================================
+   Notepad
+==========================================================================
+*/
+
+.notepad-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.new-note-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+
+    label {
+        color: #fafafa;
+        font-size: 1.5em;
+        margin: 0 0 10px 10px;
+    }
+    textarea {
+        background-color: #474747;
+        border-radius: 10px;
+        border: solid 4px #212121;
+        color: #fafafa;
+        margin-bottom: 10px;
+        padding: 10px;
+        transition: border-color, 0.3s;
+
+        &:focus {
+            border-color: #00695c;
+            outline: none;
+        }
+    }
+}
+#add-note-btn {
+    align-self: flex-end;
+}
