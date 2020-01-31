@@ -10,10 +10,9 @@
     flex-direction: column;
     height: 100%;
     margin: auto;
-    width: 543px;
+    max-width: 563px;
 }
 .generic-btn {
-    -webkit-appearance: none;
     background-color: #00695c;
     border-radius: 10px;
     border: none;

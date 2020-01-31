@@ -15,3 +15,8 @@ body {
 #root {
     height: 100vh;
 }
+button {
+    -webkit-appearance: none;
+    outline: none;
+    padding: 0;
+}
