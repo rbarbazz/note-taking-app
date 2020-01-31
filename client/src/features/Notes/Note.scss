@@ -9,9 +9,10 @@
     border-radius: 10px;
     line-height: 1.25em;
     margin: 10px 4px;
+    overflow-wrap: break-word;
     padding: 20px;
     position: relative;
-    word-break: break-word;
+    white-space: pre-wrap;
 
     &:first-child {
         margin-top: 0;
@@ -29,8 +30,12 @@
     position: absolute;
     right: -16px;
     top: -16px;
+    transition: opacity, 0.3s;
     width: 32px;
 
+    &:hover {
+        opacity: 0.8;
+    }
     svg {
         fill: #fafafa;
     }
