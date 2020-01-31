@@ -5,11 +5,12 @@
 */
 
 .App {
-    background-color: #212121;
     color: #fafafa;
     display: flex;
+    flex-direction: column;
     height: 100%;
-    justify-content: center;
+    margin: auto;
+    width: 543px;
 }
 .generic-btn {
     -webkit-appearance: none;

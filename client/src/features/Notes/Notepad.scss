@@ -7,7 +7,7 @@
 .notepad-container {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .new-note-container {
     align-items: flex-start;
@@ -17,15 +17,16 @@
     label {
         color: #fafafa;
         font-size: 1.5em;
-        margin: 0 0 10px 10px;
+        margin: 0 0 20px 10px;
     }
     textarea {
         background-color: #474747;
         border-radius: 10px;
         border: solid 4px #212121;
         color: #fafafa;
-        margin-bottom: 10px;
-        padding: 10px;
+        line-height: 1.25em;
+        margin-bottom: 20px;
+        padding: 20px;
         transition: border-color, 0.3s;
 
         &:focus {
@@ -36,4 +37,5 @@
 }
 #add-note-btn {
     align-self: flex-end;
+    margin-right: 4px;
 }

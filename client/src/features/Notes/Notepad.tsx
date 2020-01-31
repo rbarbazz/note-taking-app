@@ -1,8 +1,11 @@
+import { useDispatch } from 'react-redux';
 import React, { useState } from 'react';
 
 import './Notepad.scss';
+import { addNewNote } from './notesStore';
 
 export const Notepad: React.FC = () => {
+  const dispatch = useDispatch();
   const [newNote, setNewNote] = useState('');
 
   return (
@@ -21,8 +24,10 @@ export const Notepad: React.FC = () => {
           className="generic-btn"
           id="add-note-btn"
           onClick={() => {
-            console.log(newNote);
-            setNewNote('');
+            if (newNote.length > 0) {
+              dispatch(addNewNote(newNote));
+              setNewNote('');
+            }
           }}
         >
           Add
