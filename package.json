@@ -1,0 +1,26 @@
+{
+  "name": "note-taking-app",
+  "version": "1.0.0",
+  "description": "This is the boilerplate for a simple React/Node app including Typescript, Redux, Sass, Express, Knex and Jest.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p watch:client watch:server",
+    "watch:client": "npm start --prefix client",
+    "watch:server": "npm run --prefix server watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbarbazz/note-taking-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbarbazz/note-taking-app/issues"
+  },
+  "homepage": "https://github.com/rbarbazz/note-taking-app#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
