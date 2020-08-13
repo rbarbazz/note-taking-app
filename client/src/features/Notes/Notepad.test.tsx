@@ -14,7 +14,7 @@ const Store: React.FC<{ children: JSX.Element[] | JSX.Element }> = ({
   return <Provider store={store}>{children}</Provider>;
 };
 
-test('renders learn react link', () => {
+test('renders Notepad', () => {
   const { getByText } = render(
     <Store>
       <Notepad />
