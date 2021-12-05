@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/rbarbazz/note-taking-app#readme",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "^6.4.0"
   }
 }
